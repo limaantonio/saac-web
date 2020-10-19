@@ -1,0 +1,98 @@
+#page-login{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-text-base);
+  position: relative;
+}
+
+#page-cover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+#page-cover{
+  margin-right: 2rem;
+  color: #C0C7D6;
+}
+
+#page-cover{
+ 
+ 
+  flex: 1;
+  background: url('../../assets/images/ilustration.svg') no-repeat center;
+  background-size: 55%;
+  margin-top: -35rem;
+  
+
+}
+
+#page-login-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-login-content h1{
+
+  font-size: 4rem;
+}
+
+.form-container form{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+  position: absolute;
+}
+
+.form-container form label{
+  margin: 1.2rem 0;
+  font: 700 1.6rem Archivo;
+}
+
+.form-container form input{
+  height: 5.2rem;
+  border: 1px solid var(--color-text-base);
+  border-radius: 0.6rem;
+  padding: 1rem;
+  font: 700 1.6rem Archivo;
+}
+
+.form-container span{
+  margin-top: 2rem;
+  font: 700 1.2rem Archivo;
+}
+
+.form-container button{
+  margin-top: 2rem;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.6rem;
+  height: 4.2rem;
+  background: var(--color-primary);
+  color: white;
+  font: 700 1.6rem Archivo;
+}
+
+#otherSign{
+  font: 700 1.6rem Archivo;
+  color: #C0C7D6;
+}
+
+
+@media (min-width: 1100px){
+  #page-login{
+      display: flex;
+      background: chartreuse;
+  }
+}
